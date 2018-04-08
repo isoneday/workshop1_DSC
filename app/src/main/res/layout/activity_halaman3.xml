@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Halaman2Activity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="nama"
+        android:id="@+id/txtnama"
+        />
+
+
+    <TextView
+        android:id="@+id/txtalamat"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="alamat" />
+
+
+    <TextView
+        android:id="@+id/txtusia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="usia" />
+
+
+    <Button
+        android:id="@+id/btnselesai"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selesai" />
+
+</LinearLayout>
+</layout>
